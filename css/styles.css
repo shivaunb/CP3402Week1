@@ -1,0 +1,109 @@
+/*
+Author: Shivaun Bretz
+Date: 1/2/24
+File Name: styles.css
+*/
+
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #fbe8a6;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    float: center;
+}
+
+nav {
+    float: center;
+    background-color: #f4976e;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2em 2em 0 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.75em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+nav li a:link, nav li a:visited {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+main {
+    clear: left;
+    background-color: #fbe8a6;
+    padding: 1.5%;
+    margin: 1em 5em 1em 5em;
+    font-size: 1.125em;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: #303C6C;
+    text-align: center;
+    padding: 2%;
+    text-decoration: solid;
+}
+
+h2 {
+    font-size: 2em;
+    color: #303C6C;
+    text-align: center;
+    text-decoration: solid;
+}
+
+#intro { 
+    clear: left;
+    padding: 0% 10% 2%;
+    margin: 0 2%;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    text-align: center; 
+    color: #f4976e; 
+    padding: 0 1em;
+}
+
+footer p a:link {
+    color: #fff;
+    text-decoration: none; 
+}
+
+footer p a:hover {
+    color: #f4976e;
+    text-decoration: none; 
+}
